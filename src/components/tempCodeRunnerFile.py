@@ -1,4 +1,3 @@
-
 import sys
 import os
 import numpy as np
@@ -79,7 +78,3 @@ class DataIngestion:
             return feature_store_file_path
         except Exception as e:
             raise CustomException(e,sys) from e
-
-        
-
-
