@@ -4,8 +4,8 @@ from src.logger import logging as lg
 import os,sys
 
 
-from src.pipeline.train_pipeline import TrainingPipeline
-from src.pipeline.predict_pipeline import PredictionPipeline
+from src.pipeline.train_pipeline import TrainingPipeline # type: ignore
+from src.pipeline.predict_pipeline import PredictionPipeline # type: ignore
 
 
 app = Flask(__name__)
